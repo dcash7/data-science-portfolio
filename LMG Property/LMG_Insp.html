@@ -12020,6 +12020,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Categorical data needs to be transformed; converted to Ordinal. This will allow PCA to be used.</span>
+<span class="c1">#LabelEncoding with PCA beat One-Hot encoding with TruncatedSVD significantly, with differences of around .1 for the metric</span>
 <span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">LabelEncoder</span>
 
 <span class="n">le</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
@@ -12083,7 +12084,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Highlight the strongest correlations, consider pca or grouping varaibles</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Highlight the strongest correlations, consider dimensionality reduction or grouping varaibles</span>
 <span class="n">corr</span> <span class="o">=</span> <span class="n">corr</span><span class="o">.</span><span class="n">mask</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">tril</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">corr</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">bool</span><span class="p">))</span>
 <span class="n">s</span> <span class="o">=</span> <span class="n">corr</span><span class="o">.</span><span class="n">unstack</span><span class="p">()</span>
 <span class="n">sorted_d</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
