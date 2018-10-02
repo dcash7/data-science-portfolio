@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="payFreq">
+        <item>Monthly</item>
+        <item>Bi-Monthly</item>
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+    </string-array>
+</resources>

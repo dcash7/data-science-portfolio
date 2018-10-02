@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Loan Schedule Calculator</string>
+    <string name="ML">Mortgage Loan</string>
+    <string name="SD">Start Date</string>
+    <string name="Years">Years</string>
+    <string name="CPY">Compounding per year</string>
+    <string name="PF">Payment Frequency</string>
+    <string name="NI">Nominal Interest Rate</string>
+    <string name="FPD">First Payment Due</string>
+    <string name="Pay">Payment (calculated)</string>
+    <string name="calculate">Calculate</string>
+    <string name="drop">Pick a payment frequency</string>
+</resources>
