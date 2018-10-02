@@ -1,2 +1,2 @@
-# data-science-portfolio
-Portfolio of data science projects exploring the exciting world around us.
+# Resume-Portfolio
+Portfolio of demonstrating various skills and languages I've used
