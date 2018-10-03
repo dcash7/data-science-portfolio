@@ -7,7 +7,7 @@ Loan Amortization Schedule Calculator\
 Calculates a full amortization schedule based on multiple inputs such as compounding period and payment frequency.\
 Demonstrates concepts tested in the second Actuarial Exam, FM.\
 ![Loan App Screenshot](/Images/Screenshot_20181002-200906_LoanScheduleCalculator.jpg)\
-https://github.com/dcash7/Resume-Portfolio/tree/master/LoanScheduleCalculator
+https://github.com/dcash7/Resume-Portfolio/tree/master/LoanScheduleCalculator\
 APK located: https://github.com/dcash7/Resume-Portfolio/tree/master/LoanScheduleCalculator/app/release
 
 
